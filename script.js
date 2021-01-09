@@ -52,7 +52,7 @@ function addTodoToList(todoItem, todoId) {
     checkbox.onchange = toggleCheckbox;
 
     const dltIcon = document.createElement("i");
-    dltIcon.className = 'fas fa-trash';
+    dltIcon.className = 'far fa-times';
     const dltBtn = document.createElement('button');
     dltBtn.className = "btn btn-link col-1 red-color";
     dltBtn.appendChild(dltIcon);
